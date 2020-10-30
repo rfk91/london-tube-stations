@@ -1,0 +1,17 @@
+{
+  "name": "london-tube-stations",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "tsc": "tsc",
+    "start": "tsc index.ts && node index.js"
+  },
+  "author": "rfk91",
+  "license": "MIT",
+  "dependencies": {
+    "puppeteer": "^5.4.1"
+  },
+  "devDependencies": {
+    "@types/puppeteer": "^3.0.3"
+  }
+}
